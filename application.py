@@ -185,9 +185,3 @@ def message(data):
     messages.append(message)
     emit("receive message", {"chatroom_id": chatroom_id, "content": content, "user_id": user, "time": time}, broadcast=True)
 
-
-
-
-
-if __name__ == "__main__":
-    socketio.run(app, debug=True)
