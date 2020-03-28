@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<div class="row">
+    <div class="col-2">
+        <img src="/static/errorwarning.jpg" alt="error sign" id="error_image">
+    </div>
+    <div class="col-10">
+        <h1 class="text-warning error" id="error1">Error</h1>
+        <h3 class="text-muted error">{{ error }}</h3>
+    </div>
+</div>
+
+{% endblock %}

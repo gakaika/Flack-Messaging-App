@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<div class="row">
+    <div col-12>
+        <h1 id="chat_tt">Create A Chatroom</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-7">
+        <form method="post">
+            <div class="form-inline">
+              <input type="text" autocomplete="off" autofocus class="form-control mr-2" name="chatroom_name" placeholder="Chatroom Name" required>
+              <button type="submit" class="btn btn-primary btn-md">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,229 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+}
+
+main .form-control
+{
+    /* center form controls*/ 
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: 60%;
+}
+
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents 
+    text-align: center;*/
+}
+
+#search_title{
+    color: white;
+    font-weight: 300px;
+    margin-top: 22%;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+.bg {
+    position: absolute;
+    left: 0%;
+    background-image: linear-gradient(to right top, #cf9d11, #aab837, #81ce6b, #51dfa4, #12ebdc);
+    width: 100%;
+    height: 100%;
+}
+
+.bg-2 {
+    position: fixed;
+    left: 0%;
+    background: url('../static/chat_background.jpg') no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.login-container{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    background-color: #093145;
+    border: 2px solid #EBC944;
+    opacity: 0.93;
+    padding: 30px 0px 70px;
+    margin-top: 15vh;
+    -webkit-box-shadow: 0px 0px 55px 15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 55px 15px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 55px 15px rgba(0,0,0,0.75);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+#register-title{
+    font-family: "Verdana";
+    color: white;
+    font-size: 40px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.form-group-s
+{
+    padding-bottom: 20px;
+}
+
+.error{
+    padding-bottom: 10px;
+}
+
+#error1{
+    margin-top: 10vh;
+    font-size: 50px;
+}
+
+#error_image{
+    margin-top: 10vh;
+    width: 8vw;
+    height: 8vw;
+}
+
+.gr{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.vl {
+    position: absolute;
+    left: 48%;
+    top: 240px;
+    border-right: 6px solid green;
+    height: 68vh;
+}
+
+#chatroom_bt {
+    margin-top: 10px;
+}
+
+#chat_tt{
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 62vh;
+    width: 95%;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+#chatroom_title{
+    color: gold;
+}
+
+.message_bottom{
+    position: absolute;
+    top: 74%;
+    left: 12%;
+}
+
+#message_box{
+    width: 78vw;
+    left: 30%;
+    resize: none;
+}
+
+
+/* Chat box classes partially adapted from https://codingislove.com/css-speech-bubbles/ */
+.box-1 {
+    width: 300px;
+    margin: 50px auto;
+    margin-top: 5px;
+    background: #00bfb6;
+    padding: 20px;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    font-family: arial;
+    position: relative;
+    border-radius: 10px;
+    clear: both;
+}
+
+.box-2 {
+    width: 300px;
+    margin: 50px auto;
+    margin-top: 5px;
+    background: skyblue;
+    padding: 20px;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    font-family: arial;
+    position: relative;
+    border-radius: 10px;
+    clear: both;
+}
+
+.sb1:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #00bfb6;
+    border-top: 10px solid #00bfb6;
+    border-bottom: 10px solid transparent;
+    left: -16px;
+    top: 6px;
+    border-radius: 4px;
+}
+
+.sb2:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid skyblue;
+    border-top: 10px solid skyblue;
+    border-bottom: 10px solid transparent;
+    right: 19px;
+    bottom: -16px;
+    border-radius: 4px;
+}
+
+.message_info {
+    position: absolute;
+    right: 30px;
+    text-align: left;
+    top: 100%;
+    color: beige;
+    font-weight: 0;
+    font-size: small;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#message_boxes_container {
+    height: 57vh;
+    width: 93vw; 
+    padding-left: 14vw;
+    padding-right: 14vw;
+    overflow:auto;
+}
