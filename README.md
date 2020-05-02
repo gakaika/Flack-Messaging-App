@@ -27,7 +27,7 @@ Alternatively, to use a local copy simply clone and run application.py
 
 ## Screenshots for Demo
 <p align="center">
-  <img src="readme-images/Flack-Chatroom.jpg" align="center" alt="Chatroom" width="700">
-  <img src="readme-images/Flack-Register.jpg" alt="Chatroom" width="700">
-  <img src="readme-images/Flack-Home.jpg" alt="Chatroom" width="700">
+  <img src="readme-images/Flack-Chatroom.jpg" align="center" alt="Chatroom" width="800">
+  <img src="readme-images/Flack-Register.jpg" alt="Chatroom" width="800">
+  <img src="readme-images/Flack-Home.jpg" alt="Chatroom" width="800">
 </p>
