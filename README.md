@@ -1,6 +1,6 @@
 # Flack Messaging App
 
-A messaging application based on using open chatrooms wherein users can create and freely join chatrooms to converse with others in real time, through a simple and intuitive user-interface. This web application is built with **Flask** in Python.
+A messaging application based on using open chatrooms wherein users can create and freely join chatrooms to converse with others in real time, through a simple and intuitive user-interface. This web application is built with **Flask** in Python and **Javascript**.
 
 Website hosted with Heroku on: https://flack-messaging-app-v2.herokuapp.com/
 
