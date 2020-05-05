@@ -23,7 +23,7 @@ Website hosted with Heroku on: https://flack-messaging-app-v2.herokuapp.com/
 
 ## Setup and Usage
 Please access the link above for the website hosted on Heroku.
-Alternatively, to use a local copy simply clone and run application.py
+Alternatively, to use a local copy simply clone and run application.py. Follow the link provided in the terminal window that will then appear.
 
 ## Screenshots for Demo
 <p align="center">
